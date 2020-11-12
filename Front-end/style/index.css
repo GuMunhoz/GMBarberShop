@@ -1,0 +1,57 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.papai {
+    display: flex;
+    padding: 50px;
+
+    background: #7E5228;
+
+
+}
+
+.logoMain {
+
+
+    position: absolute;
+    width: 120px;
+    height: 125px;
+    left: 5px;
+    top: -10px;
+    border-radius: 23px;
+
+
+
+}
+
+
+
+.nav {
+    display: flex;
+
+
+
+}
+
+.nav-link {
+
+    display: inline-block;
+
+    width: 270px;
+    height: 30px;
+    left: 203px;
+    top: 51px;
+
+    font-family: Exo 2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #E5E5E5;
+
+
+}
