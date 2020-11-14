@@ -1,0 +1,85 @@
+.footer{
+
+
+position: absolute;
+width: 1497px;
+height: 151px;
+left: 0px;
+top: 440px;
+background: rgba(0, 0, 0, 0.98);
+
+}
+
+
+.container{
+
+}
+
+
+
+
+.col-rede-sociais{
+
+}
+
+
+
+.titulo-rede-sociais{
+
+    /* Redes sociais */
+
+position: absolute;
+width: 207px;
+height: 28px;
+left: 5px;
+top: 7px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.logo-instagram{
+
+    /* instagram 1 */
+
+position: absolute;
+width: 54px;
+height: 52px;
+left: 40px;
+top: 50px;
+
+border-radius: 31px;
+
+
+}
+
+.logo-facebook{
+
+    /* facebok 1 */
+
+position: absolute;
+width: 53px;
+height: 55px;
+left: 104px;
+top: 47px;
+
+border-radius: 31px;
+
+
+}
+/* BASE DO MEIO , CNPJ */
+.cnpj{
+ /* cnpj : 00.000.000/0000-01 */
+
+position: absolute;
+height: 24px;
+left: 579px;
+top: 12px;
+font-size: 14px;
+line-height: 116%;
+text-transform: uppercase;
+color: #FFFFFF;
+
+
+
+}
