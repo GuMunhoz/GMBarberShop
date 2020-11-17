@@ -5,7 +5,7 @@
     width: 100%;
     height: 151px;
     left: 0px;
-    top: 540px;
+    top: 670px;
     background: rgba(0, 0, 0, 0.98);
 
 }
@@ -149,44 +149,45 @@
 
     /* GM -logo-white 2 */
     position: absolute;
-    width: 119px;   
+    width: 119px;
     left: 92%;
     top: 10px;
 }
 
-.container2{
+.container2 {
 
-background-color: #FFFCF6;
-}
-.site-blindado{
-/* logo_siteblindado12 1 */
-
-position: absolute;
-width: 140px;
-left: 52px;
-top: 100%;
+    background-color: #FFFCF6;
 }
 
-.ssl{
-/* ssl 1 */
+.site-blindado {
+    /* logo_siteblindado12 1 */
 
-position: absolute;
-width: 90px;
-left: 253px;
-top: 100%;
+    position: absolute;
+    width: 140px;
+    left: 52px;
+    top: 100%;
+}
+
+.ssl {
+    /* ssl 1 */
+
+    position: absolute;
+    width: 90px;
+    left: 253px;
+    top: 100%;
 
 
 }
 
-.copy-right{
-/* COPYRIGHT@EMAIL.COM 2020 */
-position: absolute;
-width: 175px;
-left: 631px;
-top: 100%;
-font-weight: normal;
-font-size: 13px;
-text-transform: lowercase;
-font-feature-settings: 'pnum' on, 'lnum' on;
-color: #000000;
+.copy-right {
+    /* COPYRIGHT@EMAIL.COM 2020 */
+    position: absolute;
+    width: 175px;
+    left: 631px;
+    top: 100%;
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: lowercase;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #000000;
 }
