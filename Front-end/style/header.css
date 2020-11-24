@@ -6,9 +6,9 @@ body {
 .papai {
     display: flex;
     padding: 20px;
-
+    position: fixed;
     background: #7E5228;
-
+    width: 100%;
 
 }
 
@@ -49,4 +49,8 @@ body {
     padding: 0px 7px;
 
 
+}
+
+.nav-item {
+    width: 250px;
 }
