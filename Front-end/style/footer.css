@@ -1,6 +1,4 @@
 .footer {
-
-
     position: absolute;
     width: 100%;
     height: 151px;
@@ -12,7 +10,6 @@
 
 
 .titulo-rede-sociais {
-
     /* Redes sociais */
 
     position: absolute;
@@ -26,7 +23,6 @@
 }
 
 .logo-instagram {
-
     /* instagram 1 */
 
     position: absolute;
@@ -36,12 +32,9 @@
     top: 50px;
 
     border-radius: 31px;
-
-
 }
 
 .logo-facebook {
-
     /* facebok 1 */
 
     position: absolute;
@@ -51,8 +44,6 @@
     top: 47px;
 
     border-radius: 31px;
-
-
 }
 
 /* BASE DO MEIO , CNPJ */
@@ -102,9 +93,7 @@
 
 
 .bandeiras {
-
     display: flex;
-
 }
 
 .bandeira-visa {
@@ -115,7 +104,6 @@
     height: 41px;
     left: 65%;
     top: 70px;
-
 }
 
 .bandeira-pagseguro {
@@ -127,9 +115,6 @@
     height: 44px;
     left: 72%;
     top: 70px;
-
-
-
 }
 
 .bandeira-elo {
@@ -141,8 +126,6 @@
     height: 31px;
     left: 85%;
     top: 80px;
-
-
 }
 
 .logo-footer {
@@ -161,7 +144,6 @@
 
 .site-blindado {
     /* logo_siteblindado12 1 */
-
     position: absolute;
     width: 140px;
     left: 52px;
@@ -175,8 +157,6 @@
     width: 90px;
     left: 253px;
     top: 120%;
-
-
 }
 
 .copy-right {

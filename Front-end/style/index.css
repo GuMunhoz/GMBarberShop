@@ -8,7 +8,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .titulo {
@@ -51,9 +50,6 @@ body {
     background: #785034;
     border-radius: 60px;
     text-decoration: none;
-
-
-
 }
 
 .titulo-botao {
@@ -70,6 +66,4 @@ body {
     text-transform: uppercase;
     font-feature-settings: 'case'on;
     color: #FFFFFF;
-
-
 }
