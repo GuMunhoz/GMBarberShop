@@ -20,25 +20,18 @@ body {
     left: 5px;
     top: -10px;
     border-radius: 23px;
-
-
-
 }
-
 
 
 .nav {
     display: flex;
     list-style: none;
-
-
-
 }
 
 .nav-link {
 
     display: inline-block;
-    width: 220px;
+    width: 560px;
 
     font-weight: bold;
     font-size: 20px;
@@ -47,8 +40,6 @@ body {
     text-decoration: none;
     color: #E5E5E5;
     padding: 0px 7px;
-
-
 }
 
 .nav-item {
