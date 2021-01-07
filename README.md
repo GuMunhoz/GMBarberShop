@@ -1,3 +1,3 @@
-# GMBarberShop
+# 💈GMBarberShop ✂️
 
 <img src="print.png">
