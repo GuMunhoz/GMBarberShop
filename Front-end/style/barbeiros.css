@@ -2,3 +2,68 @@ body {
     margin: 0%;
     padding: 0%;
 }
+
+
+.h1-barbeiros{
+    font-size: 50px;
+
+    margin-left: 25vh;
+
+    margin-top: 5vh;
+
+}
+
+
+.container-barbeiros{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*Barbeiro 1*/
+.barbeiro1{
+    padding: 15vh
+}
+
+
+.nome-barbeiro1{
+    text-align: center;
+
+}
+
+.imagem-barbeiro1{
+    width: 316px;
+    height: 319px;
+   
+}
+
+.texto-barbeiro1{
+    text-align: center;
+
+    margin-top: 23px
+}
+
+
+/*Barbeiro 2*/
+.barbeiro2{
+    padding: 15vh
+}
+
+.nome-barbeiro2{
+    text-align: center;
+}
+
+.imagem-barbeiro2{
+    border-radius: 50px;
+    width: 301px;
+    height: 284px;
+   
+}
+
+.texto-barbeiro2{
+    text-align: center;
+
+    margin-top: 47px
+}
+
