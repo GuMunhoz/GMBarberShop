@@ -1,5 +1,5 @@
 .footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 151px;
     left: 0px;
@@ -12,7 +12,7 @@
 .titulo-rede-sociais {
     /* Redes sociais */
 
-    position: absolute;
+    position: fixed;
     width: 207px;
     height: 28px;
     left: 5px;
@@ -25,7 +25,7 @@
 .logo-instagram {
     /* instagram 1 */
 
-    position: absolute;
+    position: fixed;
     width: 54px;
     height: 52px;
     left: 40px;
@@ -37,7 +37,7 @@
 .logo-facebook {
     /* facebok 1 */
 
-    position: absolute;
+    position: fixed;
     width: 53px;
     height: 55px;
     left: 104px;
@@ -50,7 +50,7 @@
 .cnpj {
     /* cnpj : 00.000.000/0000-01 */
 
-    position: absolute;
+    position: fixed;
     height: 24px;
     left: 670px;
     top: 12px;
@@ -68,7 +68,7 @@
 .email-phone {
     /* gmbarbershop@mail.com | (11) 97777-0000 */
     display: inline-block;
-    position: absolute;
+    position: fixed;
     width: 416px;
     height: 20px;
     left: 206px;
@@ -82,7 +82,7 @@
 
 .termo {
     /* termo de uso | politica e privacidade */
-    position: absolute;
+    position: fixed;
     left: 650px;
     top: 72px;
     font-weight: normal;
@@ -99,7 +99,7 @@
 .bandeira-visa {
     /* visa-logo-5 1 */
 
-    position: absolute;
+    position: fixed;
     width: 62px;
     height: 41px;
     left: 65%;
@@ -110,7 +110,7 @@
 
     /* Logo_PagSeguro 1 */
 
-    position: absolute;
+    position: fixed;
     width: 133px;
     height: 44px;
     left: 72%;
@@ -121,7 +121,7 @@
 
     /* elo-logo-1-1 1 */
 
-    position: absolute;
+    position: fixed;
     width: 76px;
     height: 31px;
     left: 85%;
@@ -131,7 +131,7 @@
 .logo-footer {
 
     /* GM -logo-white 2 */
-    position: absolute;
+    position: fixed;
     width: 119px;
     left: 92%;
     top: 10px;
@@ -144,7 +144,7 @@
 
 .site-blindado {
     /* logo_siteblindado12 1 */
-    position: absolute;
+    position: fixed;
     width: 140px;
     left: 52px;
     top: 120%;
@@ -153,7 +153,7 @@
 .ssl {
     /* ssl 1 */
 
-    position: absolute;
+    position: fixed;
     width: 90px;
     left: 253px;
     top: 120%;
@@ -161,7 +161,7 @@
 
 .copy-right {
     /* COPYRIGHT@EMAIL.COM 2020 */
-    position: absolute;
+    position: fixed;
     width: 175px;
     left: 631px;
     top: 120%;
