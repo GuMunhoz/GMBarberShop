@@ -67,3 +67,58 @@ body {
     margin-top: 47px
 }
 
+
+
+
+/*Responsividade*/
+@media screen and (max-width: 800px) {
+    .h1-barbeiros{
+        font-size: 40px;
+   
+    }
+    .barbeiro1{
+        padding: 10vh
+    }
+
+    .barbeiro2{
+        padding: 10vh
+    }
+  }
+
+  @media screen and (max-width: 710px) {
+    .h1-barbeiros{
+        font-size: 35px;
+   
+    }
+    .barbeiro1{
+        padding: 3vh
+    }
+
+    .barbeiro2{
+        padding: 3vh
+    }
+  }
+
+
+  @media screen and (max-width: 650px) {
+    .container-barbeiros{
+        display: inline;
+        justify-content: center;
+    }
+    .imagem-barbeiro1{
+        width: 316px;
+        height: 319px;
+
+        margin-left: 24vh;
+    }
+
+    .imagem-barbeiro2{
+        border-radius: 50px;
+        width: 301px;
+        height: 284px;
+
+        margin-left: 24vh;
+       
+    }
+    
+  }
