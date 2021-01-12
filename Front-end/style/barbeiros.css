@@ -2,3 +2,123 @@ body {
     margin: 0%;
     padding: 0%;
 }
+
+
+.h1-barbeiros{
+    font-size: 50px;
+
+    margin-left: 25vh;
+
+    margin-top: 5vh;
+
+}
+
+
+.container-barbeiros{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*Barbeiro 1*/
+.barbeiro1{
+    padding: 10vh
+}
+
+
+.nome-barbeiro1{
+    text-align: center;
+
+}
+
+.imagem-barbeiro1{
+    width: 316px;
+    height: 319px;
+   
+}
+
+.texto-barbeiro1{
+    text-align: center;
+
+    margin-top: 23px
+}
+
+
+/*Barbeiro 2*/
+.barbeiro2{
+    padding: 10vh
+}
+
+.nome-barbeiro2{
+    text-align: center;
+}
+
+.imagem-barbeiro2{
+    border-radius: 50px;
+    width: 301px;
+    height: 284px;
+   
+}
+
+.texto-barbeiro2{
+    text-align: center;
+
+    margin-top: 47px
+}
+
+
+
+
+/*Responsividade*/
+@media screen and (max-width: 800px) {
+    .h1-barbeiros{
+        font-size: 40px;
+   
+    }
+    .barbeiro1{
+        padding: 10vh
+    }
+
+    .barbeiro2{
+        padding: 10vh
+    }
+  }
+
+  @media screen and (max-width: 710px) {
+    .h1-barbeiros{
+        font-size: 35px;
+   
+    }
+    .barbeiro1{
+        padding: 3vh
+    }
+
+    .barbeiro2{
+        padding: 3vh
+    }
+  }
+
+
+  @media screen and (max-width: 650px) {
+    .container-barbeiros{
+        display: inline;
+        justify-content: center;
+    }
+    .imagem-barbeiro1{
+        width: 316px;
+        height: 319px;
+
+        margin-left: 24vh;
+    }
+
+    .imagem-barbeiro2{
+        border-radius: 50px;
+        width: 301px;
+        height: 284px;
+
+        margin-left: 24vh;
+       
+    }
+    
+  }

@@ -5,8 +5,10 @@ body {
 
 
 
-.agendamento-horario{
+.h1-agendamento-horario{
     text-align: center;
+
+    margin-top: 5vh;
 }
 
 
@@ -15,10 +17,10 @@ body {
     border: 1px solid #000000;
     padding: 10px;
 
-    width: 80px;
-    height: 22px;
+    width: 100px;
+    height: 40px;
 
-    margin-left: 51%;
+    margin-left: 65%;
 }
 
 
@@ -28,7 +30,60 @@ body {
 
     border: 2px solid #81552C;
 
-    margin-bottom: 10%;
+    margin-top: 5vh;
+    margin-left: 45vh;
+    margin-right: 45vh;
+    
+
+    justify-content: space-between;
+
+}
+
+
+
+.logo-agendamento{
+    width: 92px;
+    height: 91px;
+    left: 469px;
+    top: 361px;
 
     
+}   
+
+.date-time-container-agendamento{
+    margin-top: 36px;
+
+    margin-left: 10vh;
+}
+.barbeiro-container-agendamento{
+    margin-top: 36px;
+}
+
+.botao-container-agendamento{
+    text-align: center;
+    font-size: 17px;
+   
+    height: 38px;
+    
+    top: 379px;
+    margin-top: 26px;
+    margin-right: 10vh;
+    padding: 6px;
+
+    background: rgba(129, 85, 44, 0.97);
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+
+.line-agendamento{
+    border: 1px solid #000000;
+
+    height: 1px;
+    width: 95vh;
+
+    position: absolute;
+
+    margin-top: 85px;
+    margin-left: 40px;
 }

@@ -6,7 +6,7 @@ body {
 .papai {
     display: flex;
     padding: 20px;
-    position: fixed;
+    /* position: fixed; */
     background: #7E5228;
     width: 100%;
 
@@ -15,11 +15,13 @@ body {
 .logoMain {
 
 
-    position: absolute;
+    /* position: absolute; */
     width: 90px;
     left: 5px;
     top: -10px;
     border-radius: 23px;
+
+    margin: -25px;
 }
 
 
@@ -40,8 +42,12 @@ body {
     text-decoration: none;
     color: #E5E5E5;
     padding: 0px 7px;
+
+    margin-top: 10px;
 }
 
 .nav-item {
     width: 250px;
+
+    margin-top: 10px;
 }

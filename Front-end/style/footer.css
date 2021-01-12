@@ -1,10 +1,10 @@
 .footer {
-    position: absolute;
+    position: fixed;                
     width: 100%;
-    height: 151px;
+    height: 120px;
     left: 0px;
-    top: 100%;
     background: rgba(0, 0, 0, 0.98);
+    bottom: 0;
 
 }
 
@@ -12,11 +12,10 @@
 .titulo-rede-sociais {
     /* Redes sociais */
 
-    position: absolute;
+    position: fixed;
     width: 207px;
     height: 28px;
     left: 5px;
-    top: 7px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -25,24 +24,22 @@
 .logo-instagram {
     /* instagram 1 */
 
-    position: absolute;
+    position: fixed;
     width: 54px;
     height: 52px;
     left: 40px;
-    top: 50px;
-
     border-radius: 31px;
+    bottom: 20px;
 }
 
 .logo-facebook {
     /* facebok 1 */
 
-    position: absolute;
+    position: fixed;
     width: 53px;
     height: 55px;
-    left: 104px;
-    top: 47px;
-
+    left: 98px;
+    bottom: 18px;
     border-radius: 31px;
 }
 
@@ -50,14 +47,14 @@
 .cnpj {
     /* cnpj : 00.000.000/0000-01 */
 
-    position: absolute;
-    height: 24px;
-    left: 670px;
-    top: 12px;
+    position: fixed;
+    height: 28px;
+    left: 550px;
     font-size: 14px;
     line-height: 116%;
     text-transform: uppercase;
     color: #FFFFFF;
+    
 }
 
 .ultima-linha {
@@ -68,27 +65,27 @@
 .email-phone {
     /* gmbarbershop@mail.com | (11) 97777-0000 */
     display: inline-block;
-    position: absolute;
+    position: fixed;
     width: 416px;
     height: 20px;
     left: 206px;
-    top: 70px;
     font-weight: normal;
     font-size: 14px;
     text-transform: uppercase;
     color: #FFFFFF;
+    bottom: 0;
 
 }
 
 .termo {
     /* termo de uso | politica e privacidade */
-    position: absolute;
-    left: 650px;
-    top: 72px;
+    position: fixed;
+    left: 550px;
     font-weight: normal;
     font-size: 14px;
     text-transform: uppercase;
     color: #FFFFFF;
+    bottom: 5px;
 }
 
 
@@ -99,61 +96,66 @@
 .bandeira-visa {
     /* visa-logo-5 1 */
 
-    position: absolute;
-    width: 62px;
-    height: 41px;
-    left: 65%;
-    top: 70px;
+    position: fixed;
+    width: 55px;
+    bottom: 10px;
+    left: 67%;
 }
 
 .bandeira-pagseguro {
 
     /* Logo_PagSeguro 1 */
 
-    position: absolute;
+    position: fixed;
     width: 133px;
     height: 44px;
     left: 72%;
-    top: 70px;
+    bottom: 0;
 }
 
 .bandeira-elo {
 
     /* elo-logo-1-1 1 */
 
-    position: absolute;
+    position: fixed;
     width: 76px;
-    height: 31px;
-    left: 85%;
-    top: 80px;
+    height: 28px;
+    left: 83%;
+    bottom: 10px;
 }
 
 .logo-footer {
 
     /* GM -logo-white 2 */
-    position: absolute;
-    width: 119px;
-    left: 92%;
-    top: 10px;
+    position: fixed;
+    width: 108px;
+    left: 90%;
 }
 
 .container2 {
 
-    background-color: #FFFCF6;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    background: rgba(61, 14, 33, 0.509);
+    ;
 }
+    
+
 
 .site-blindado {
     /* logo_siteblindado12 1 */
-    position: absolute;
+    position: fixed;
     width: 140px;
     left: 52px;
-    top: 120%;
+    
 }
 
 .ssl {
     /* ssl 1 */
 
-    position: absolute;
+    position: fixed;
     width: 90px;
     left: 253px;
     top: 120%;
@@ -161,7 +163,7 @@
 
 .copy-right {
     /* COPYRIGHT@EMAIL.COM 2020 */
-    position: absolute;
+    position: fixed;
     width: 175px;
     left: 631px;
     top: 120%;
