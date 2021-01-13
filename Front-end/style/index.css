@@ -2,27 +2,23 @@ body {
     background-image: url("../img/Background/thumbnail.jpg");
     /* thumbnail 2 */
 
-    position: center;
-    left: 0px;
-    top: 0px;
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: bottom;
 }
 
 .titulo {
     /* GM BARBER SHOP, O clássico barba , cabelo e bigode */
 
-    position: absolute;
+    position: fixed;
     width: 983.4px;
     height: 409.86px;
-    left: 70px;
-    top: 220px;
-
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
-    line-height: 72px;
+    font-size: 52px;
+    line-height: 60px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -30,6 +26,7 @@ body {
     color: #ffffff;
     mix-blend-mode: normal;
     transform: rotate(-0.37deg);
+    left: 140px;
 }
 
 .botao {
@@ -44,8 +41,8 @@ body {
     position: absolute;
     width: 343px;
     height: 55px;
-    left: 217px;
-    top: 520px;
+    left: 310px;
+    top: 370px;
 
     background: #785034;
     border-radius: 60px;
