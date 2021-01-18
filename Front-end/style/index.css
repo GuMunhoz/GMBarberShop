@@ -1,28 +1,24 @@
 body {
-    background-image: url("../img/Background/thumbnail.jpg");
+    background-image: url("../img/Background/thumbnail_edited.jpg");
     /* thumbnail 2 */
 
-    position: center;
-    left: 0px;
-    top: 0px;
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: bottom;
 }
 
 .titulo {
     /* GM BARBER SHOP, O clássico barba , cabelo e bigode */
 
-    position: absolute;
-    width: 983.4px;
-    height: 409.86px;
-    left: 70px;
-    top: 220px;
-
+    position: fixed;
+    width: 981.4px;
+    height: 391px;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
-    line-height: 72px;
+    line-height: 65px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -30,6 +26,9 @@ body {
     color: #ffffff;
     mix-blend-mode: normal;
     transform: rotate(-0.37deg);
+    left: 170px;
+    font-family: 'Bebas Neue', cursive;
+
 }
 
 .botao {
@@ -41,11 +40,11 @@ body {
     align-items: center;
     padding: 7px 2px;
 
-    position: absolute;
-    width: 343px;
-    height: 55px;
-    left: 217px;
-    top: 520px;
+    position: fixed;
+    width: 235px;
+    height: 50px;
+    left: 290px;
+    top: 305px;
 
     background: #785034;
     border-radius: 60px;
@@ -56,14 +55,116 @@ body {
 
     /* mARCAR HORARIO */
 
-    position: absolute;
-    width: 343px;
-    font-size: 30px;
-    line-height: 142.5%;
+    position: fixed;
+    width: 253px;
+    font-size: 23px;
+    line-height: 190.5%;
     /* or 51px */
     text-align: center;
-    letter-spacing: -0.055em;
     text-transform: uppercase;
-    font-feature-settings: 'case'on;
     color: #FFFFFF;
+   font-family:'Arial, Helvetica, sans-serif';
+    left: 285px;
+    
+    
 }
+.titulo-botao:hover {
+    color: black;
+    
+}
+
+
+/* RESPONSIVE */
+
+
+/* DESKTOP */
+
+@media(min-width:500px) and (max-width:700px){
+    .titulo{
+    
+        left: 50px;
+        top: 80px;
+        font-size: 55px;
+        }
+    
+        
+        .botao {
+        
+            left: 180px;
+            top: 400px;
+        
+        }
+    
+        .titulo-botao {
+    
+            left: 175px;  
+        }
+        
+    
+
+}
+
+
+/* Android  = motog; Samsung; And old Iphone */
+
+@media(max-width:450px){
+
+    .titulo{
+    position: fixed;
+    width: 328.4px;
+    height: 392px;
+    line-height: 50px;
+    transform: rotate(-0.37deg);
+    font-family: 'Bebas Neue', cursive;
+    left: 10px;
+    top: 60px;
+    font-size: 50px;    
+}
+
+    .botao {
+    
+        left: 60px;
+        top: 385px;
+    
+    }
+
+    .titulo-botao {
+
+        left: 50px;  
+    }
+    
+}
+
+/* Iphone 6/7/8Plus */
+
+@media(min-width:400px) and (max-width:450px){
+
+    .titulo{
+    
+    left: 50px;
+    top: 80px;
+    font-size: 50px;
+    }
+
+    
+    .botao {
+    
+        left: 95px;
+        top: 400px;
+    
+    }
+
+    .titulo-botao {
+
+        left: 85px;  
+    }
+    
+}
+
+
+
+/* Ipad*/
+/* 
+@media(min-width:1200px) and (max-width: 1400px)
+
+*/
