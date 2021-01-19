@@ -1,0 +1,38 @@
+.titulo{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    top: 50px;
+}
+
+.container-pai{
+    display: flex;
+    background-color: #CAC9C8;
+    padding: 66px;
+    width: 860px;
+    height: 500px;
+    position: fixed;
+    left: 200px;
+    top: 90px;
+}
+
+.endereco{
+   
+    font-size: 30px;
+}
+.info{
+    font-size: 15px;
+}
+
+.atendimento{
+    font-size: 2px;
+}
+
+/* Rectangle 5 */
+/* 
+position: absolute;
+width: 1056px;
+height: 457px;
+left: 174px;
+top: 280px; */
+
+
