@@ -3,10 +3,19 @@
 }
 
 .imagem_sobre {
-    width: 100px;
+    width: 500px;
 }
 
 .titulo_sobre {
     text-align: center;
     text-decoration: underline;
+}
+
+.sobre_nos {
+    padding: 100px;
+}
+
+.texto_sobre {
+    text-align: center;
+    font-size: 17px;
 }
