@@ -5,25 +5,16 @@ body {
 
 .papai {
     display: flex;
-    padding: 20px;
-    /* position: fixed; */
     background: #7E5228;
     width: 100%;
 
 }
 
 .logoMain {
-
-
-    /* position: absolute; */
-    width: 90px;
-    left: 5px;
-    top: -10px;
-    border-radius: 23px;
-
-    margin: -25px;
+    
+    width: 105px;
+    margin: -5px 88px -17px;
 }
-
 
 .nav {
     display: flex;
@@ -33,11 +24,10 @@ body {
 .nav-link {
 
     display: inline-block;
-    width: 560px;
+    width: 250px;
 
     font-weight: bold;
     font-size: 20px;
-    line-height: 20px;
     text-align: center;
     text-decoration: none;
     color: #E5E5E5;
@@ -46,8 +36,13 @@ body {
     margin-top: 10px;
 }
 
-.nav-item {
-    width: 250px;
+.nav-link:hover{
+    color:azure;
+    
+}
 
-    margin-top: 10px;
+.nav-item {
+    width: 220px;
+
+    margin-top: 30px;
 }
