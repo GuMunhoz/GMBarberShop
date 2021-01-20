@@ -22,8 +22,6 @@ body {
 }
 
 .nav-link {
-
-    display: inline-block;
     width: 250px;
 
     font-weight: bold;
