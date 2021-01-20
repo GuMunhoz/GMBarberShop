@@ -6,6 +6,11 @@
     padding: 120px;
 }
 
+.background_login {
+    background-color: #CAC9C8;
+    padding: 100px;
+}
+
 .cadastre-se {
     text-align: center;
 }
