@@ -1,3 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+.login {
+    padding: 120px;
+}
+
+.cadastre-se {
+    text-align: center;
+}
