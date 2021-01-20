@@ -12,7 +12,7 @@ body {
 
 .logoMain {
     
-    width: 70px;
+    width: 85px;
     margin: -3px 74px -5px;
 }
 
@@ -22,16 +22,13 @@ body {
 }
 
 .nav-link {
-    width: 250px;
-
     font-weight: bold;
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     color: #E5E5E5;
-    padding: 0px 7px;
 
-    margin-top: 10px;
+    margin-left: 40px;
 }
 
 .nav-link:hover{
@@ -40,7 +37,5 @@ body {
 }
 
 .nav-item {
-    width: 140px;
-
     margin-top: 30px;
 }
