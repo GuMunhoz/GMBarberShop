@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="../style/atendimento.css">
@@ -47,38 +47,51 @@
        </header>
     <!--Main-->
      <main>
-         <h1 class="titulo"> Atendimento</h1>
-         <div class="container-pai">
-             <div class="endereco">
-             <h2>Endereço</h2> 
-             <h2 class="info"> Rua Cardeal Arcoverde, 1571 - Pinheiros, São Paulo SP</h2> <br>
-             </div>
-              <div class="atendimento">
-                <h2>Atendimento</h2> <br><br>
-                <img src="../img/Background/clock.png" alt="">
-                <h2 class="horario">  Seg das 13h00 às 20h00 </h2> <br>
-                <img src="../img/Background/clock.png" alt="" >
-                <h2 class="horario">  Ter à sex das 10h00 às 20h00</h2> <br>
-                <img src="../img/Background/clock.png" alt="" >
-                <h2 class="horario"> Sáb das 10h00 às 18h00</h2>
-             </div>
-             <!-- <div class="newsletter">
-                 <h1>NEWSLETTER</h1> <br>
-                 <h2>Cadastre-se em nossa newsletter e receba novidades sobre lifestyle direto na sua caixa postal.</h2> <br>
-                 <form action="" class="form">
-                     <input type="email" name="email" id="email"  placeholder="Email">
-                     <input type="submit" value="Enviar" class="submit">
-                 </form> 
+        
+        <div class="container">
+         <h1 class="display-4 ">Atendimento</h1>
+        </div> 
+         <div class="container  flex-row ">
+         <div class="jumbotron pt-2">
+            <h1 class="display-5  "> Endereço :</h1>
+            <p class="lead">Rua Cardeal Arcoverde, 1571 - Pinheiros, São Paulo SP</p>
 
-             </div> -->
-         </div>     
+            <h1 class="display-5"> Atendimento:</h1>
+              <div class="d-flex flex-row">  
+              <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
+               <div class="p-2"><p>Seg das 13h00 às 20h00</p></div>
+            </div>
+            <div class="d-flex flex-row ">  
+                <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
+                 <div class="p-2"><p>Ter à sex das 10h00 às 20h00</p></div>
+              </div>
+              
+            <div class="d-flex flex-row">  
+                <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
+                 <div class="p-2"><p> Sáb das 10h00 às 18h00</p></div>
+              </div>
+
+              <!--Newsletter-->
+              <div class="container1">
+                  <h2 class="display-5">Newsletter</h2>
+                  <form class="form-inline my-2" >
+                    <p class="lead"> Cadastre-se em nossa newsletter e receba novidades sobre lifestyle direto na sua caixa postal.</p>
+                    <input type="email" class="form-control form-control-lg" id="" placeholder="Email">
+                    <button class="btn btn-outline-success ml-2" type="submit" href="#" >Enviar</button>
+
+                  </form>
+
+              </div>
+         </div>   
+        </div>
+
      </main>
-     
-
 
 
 
     <!--JS-->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
