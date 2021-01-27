@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="../style/atendimento.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <title>Atendimento</title>
 </head>
@@ -45,49 +47,100 @@
             </li>
         </ul>
        </header>
-    <!--Main-->
-     <main>
+    
+
+
+       <main>
         
         <div class="container">
-         <h1 class="display-4 ">Atendimento</h1>
+         <h1 class="titulo">Atendimento</h1>
         </div> 
-         <div class="container  flex-row ">
-         <div class="jumbotron pt-2">
-            <h1 class="display-5  "> Endereço :</h1>
-            <p class="lead">Rua Cardeal Arcoverde, 1571 - Pinheiros, São Paulo SP</p>
+         <div class="container  flex-row divcentro ">
+         <div class="jumbotron">
 
-            <h1 class="display-5"> Atendimento:</h1>
-              <div class="d-flex flex-row">  
-              <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
-               <div class="p-2"><p>Seg das 13h00 às 20h00</p></div>
-            </div>
-            <div class="d-flex flex-row ">  
-                <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
-                 <div class="p-2"><p>Ter à sex das 10h00 às 20h00</p></div>
-              </div>
-              
-            <div class="d-flex flex-row">  
-                <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
-                 <div class="p-2"><p> Sáb das 10h00 às 18h00</p></div>
-              </div>
-
-              <!--Newsletter-->
-              <div class="container1">
-                  <h2 class="display-5">Newsletter</h2>
+       <div class="container divpading">
+            <div class="row">
+                <div class="col">
+                    <h1 class="endereco"> Endereço :</h1>
+                     <p class="lead">Rua Cardeal Arcoverde, 1571 - Pinheiros, São Paulo SP</p>
+                </div>  
+                <div class="col">
+                <div class="container">
+                    <h2 class="divNews">Newsletter</h2>
                   <form class="form-inline my-2" >
                     <p class="lead"> Cadastre-se em nossa newsletter e receba novidades sobre lifestyle direto na sua caixa postal.</p>
                     <input type="email" class="form-control form-control-lg" id="" placeholder="Email">
                     <button class="btn btn-outline-success ml-2" type="submit" href="#" >Enviar</button>
 
                   </form>
+                </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                <h1 class="atendimento"> Atendimento:</h1>
+                    <div class="d-flex flex-row">  
+                    <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
+                    <div class="p-2"><p>Seg das 13h00 às 20h00</p></div>
+                    </div>
+                    <div class="d-flex flex-row ">  
+                        <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
+                         <div class="p-2"><p>Ter à sex das 10h00 às 20h00</p></div>
+                      </div>
+                      
+                    <div class="d-flex flex-row">  
+                        <div class="p-2"><img src="../img/Background/clock.png" alt="" width="16" height="12"></div>
+                         <div class="p-2"><p> Sáb das 10h00 às 18h00</p></div>
+                      </div>
 
-              </div>
-         </div>   
+                </div>
+                <div class="col"></div>
+            </div>
         </div>
 
-     </main>
+    </div>   
+</div>
 
+</main>
 
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-rede-sociais">
+                         <h3 class="titulo-rede-sociais"> Rede Sociais</h3>
+                            <a  target = "_blank"  href="#">
+                                <img src="../img/footer/instagram.jpg" alt="link-instagram" class="logo-instagram">
+                            </a>
+
+                            <a  target = "_blank"  href="#">
+                                <img src="../img/footer/facebok.jpg" alt="link-facebook" class="logo-facebook">
+                            </a>
+                        
+                </div>
+
+                <div class="cnpj">
+                    <h2 class="text-cnpj"> cnpj : 00.000.000/0000-01</h2>
+                 </div>
+                <div class="ultima-linha">
+                    <h4 class="email-phone"> gmbarbershop@mail.com     | (11) 97777-0000</h4>   
+               
+                    <h4 class="termo"> termo de uso | politica e privacidade </h4>
+                </div>
+              
+                <div class="bandeiras">
+                    <img src="../img/footer/visa-logo-5.png" alt="visa" class="bandeira-visa">
+                    <img src="../img/footer/Logo_PagSeguro.png" alt="pagseguro" class="bandeira-pagseguro">
+                    <img src="../img/footer/elo-logo-1-1.png" alt="elo" class="bandeira-elo">
+                </div>
+                <img src="../img/header/GM -logo-white.png" alt="logo-footer" class="logo-footer">
+            </div>
+        </div>
+        <!-- <div class = "container2">
+            <img src="../img/footer/logo_siteblindado12.jpg" alt="site-blindado" class="site-blindado">
+            <img src="../img/footer/ssl.png" alt="ssl" class="ssl">
+            <h2 class="copy-right"> COPYRIGHT@EMAIL.COM  2020</h2>
+         </div> -->
+    </footer>
 
     <!--JS-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

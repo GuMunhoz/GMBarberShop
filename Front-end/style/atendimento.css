@@ -1,13 +1,48 @@
+
+.titulo{
+margin-left: 23%;
+}
+
 .container{
    margin-top: 40px;
    font-family: 'Times New Roman', Times, serif;
 }
-.container1{
-    margin-left: 50%;
-    margin-top: 10px;
-}
-h1.display-5{
-   margin-right: 700px;
+
+.jumbotron{
+   max-height: 70vh;
+   max-width: 300vh;
+   
+   
+
 }
 
+.endereco{
+   font-size: 25px;
+   margin-bottom: 10px;
+   font-weight: bolder;
+
+}
+.lead{
+   font-size: 15px;
+   
+}
+.atendimento{
+   font-size: 25px;
+   font-weight: bolder;
+   margin-top: -60px;
+   
  
+}
+
+.divpading{
+   margin-top: 70px;
+   margin-top: -20px;
+}
+
+.divcentro{
+   padding: 20px;
+}
+.divNews{
+   font-weight: bolder;
+   
+}
