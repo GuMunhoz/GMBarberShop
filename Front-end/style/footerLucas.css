@@ -9,6 +9,7 @@ body {
 
 .redes-sociais-cnpj{
     display: flex;
+    margin-left: 65px;
     margin-top: 2vw;
     color: white;
 }
@@ -16,20 +17,24 @@ body {
 .rede-social-nome{
     margin-left: 3vw;
 }
-.cnpj{
+
+.cnpj {
+    /* cnpj : 00.000.000/0000-01 */
     margin-left: 22vw;
-    
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;   
 }
 
 .meio-footer{
+    margin-left: 145px;
     display: flex;
     color: white;
 }
 
 .logo-instagram {
-    
     width: 40px;
     height: 42px; 
+    
 }
 
 .logo-facebook {
@@ -37,24 +42,55 @@ body {
     height: 45px;
 }
 
+.email-phone {   
+    /* gmbarbershop@mail.com | (11) 97777-0000 */
+   
+    margin-left: 50px;
+    margin-top: 18px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.termo {
+    /* termo de uso | politica e privacidade */
+    /* position: fixed; */
+    margin-left: 30px;
+    margin-top: 18px;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Arial, Helvetica, sans-serif';
+
+}
+
 .bandeira-visa {
+    margin-left: 30px;
+    margin-top: 18px;
     width: 45px;
     height: 30px;
+    margin-left: 50px;
 }
 
 .bandeira-pagseguro {
+    margin-left: 10px;
+    margin-top: 13px;
     width: 120px;
     height: 44px;
 }
 
 .bandeira-elo {
+    margin-left: 10px;
+    margin-top: 20px;
     width: 70px;
     height: 28px;
 }
 
 .logo-footer-barber{
-    width: 105px;
     margin-top: -54px;
+    margin-left: 10px;
+    width: 35vh;
+    
 }
 
 
