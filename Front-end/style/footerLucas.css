@@ -94,9 +94,6 @@ body {
 }
 
 
-
-
-
 /*Contaner 2*/
 .site-blindado {
     width: 140px;
@@ -113,7 +110,7 @@ body {
 .copy-right {
   
     font-size: 13px;
-    t
+    text-transform: lowercase;
     font-weight: bold;
     color:black;
     text-align: center;
