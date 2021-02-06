@@ -89,7 +89,7 @@ body {
 .logo-footer-barber{
     margin-top: -54px;
     margin-left: 10px;
-    width: 35vh;
+    width: 110px;
     
 }
 
@@ -100,21 +100,22 @@ body {
 /*Contaner 2*/
 .site-blindado {
     width: 140px;
+    margin-left: 100px;
 
     
 }
 .ssl {
-    /* ssl 1 */
-
-    /* position: fixed; */
     width: 90px;
     left: 253px;
+    margin-left:15px
 }
 
 .copy-right {
   
     font-size: 13px;
-    text-transform: lowercase;
- 
-    color:pink
+    t
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-top: -22px;
 }
