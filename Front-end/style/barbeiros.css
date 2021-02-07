@@ -123,3 +123,24 @@ body {
     }
     
   }
+
+  /* Resposividade Munhoz */
+
+  @media screen and (max-width:500px){
+      .imagem-barbeiro1{
+          display: none;
+      }
+      .imagem-barbeiro2{
+          display: none;
+      }
+
+      .h1-barbeiros{
+          margin-left: 10px;
+      }
+
+      .barbeiro1{
+          width: 100%;
+      }
+   
+  }
+  

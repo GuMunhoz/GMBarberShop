@@ -5,7 +5,7 @@ margin-left: 23%;
 
 .container{
    margin-top: 40px;
-   font-family: 'Times New Roman', Times, serif;
+  
 }
 
 .jumbotron{
@@ -44,5 +44,12 @@ margin-left: 23%;
 }
 .divNews{
    font-weight: bolder;
+   
+}
+
+
+/*RESPONSIVE */
+
+@media(max-width:510px){
    
 }
