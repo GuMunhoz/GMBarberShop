@@ -9,16 +9,20 @@ body {
     width: 100%;
 
 }
+.logo{
+  max-width: 150px;
+}
 
 .logoMain {
     
     width: 85px;
-    margin: -3px 74px -5px;
+margin-left: 25px;
 }
 
-.navbar {
+.nav {
     display: flex;
    list-style: none;
+   margin-left: 20px;
 }
 
 .nav-link {
@@ -38,4 +42,115 @@ body {
 
 .nav-item {
     margin-top: 30px;
+}
+
+
+/* HAMBURGUER  */
+
+.menu-hambuguer{
+margin-top: 5px;
+margin-left: 20px;
+display: flex;
+}
+
+
+
+#checkbox-menu{
+    position: absolute;
+    opacity: 0;
+
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+}
+
+label span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background:   #ffff;
+    transition: 0.25 ease-in-out;
+
+}
+
+label span:nth-child(1){
+    top : 0;
+}
+
+
+label span:nth-child(2){
+    top : 8px;
+}
+
+label span:nth-child(3){
+    top : 16px;
+}
+
+#checkbox-menu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+
+}
+
+#checkbox-menu:checked + label span:nth-child(2){
+    opacity: 0;
+}
+
+#checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top: 8px;
+
+}
+
+/* RESPONSIVIDADE */
+@media(max-width:510px){
+    .papai{
+        height: 125px;
+    }
+
+    .nav{
+        height: 280px;
+        display: none;
+       
+        
+    }
+
+    .nav-link{
+        font-size: 18px;
+        color: black;
+        font: bolder;
+        background-color:#7E5228;
+        border-color: black;
+       
+        
+    }
+    .nav-item{
+        margin-top: 10px;
+    }
+
+    .menu-hambuguer{
+        display: block;
+        
+    }
+
+  label {
+      margin-left: 150px;
+  }
+    #checkbox-menu:checked  ~ ul{
+       display:block;
+    }
+
+}
+
+@media(min-width:511px){
+    .menu-hambuguer span {
+        display: none;
+    }
 }
