@@ -3,18 +3,21 @@ body {
     padding: 0%;
 }
 
-.container-footer{
+.container-footer {
     background-color: black;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
 }
 
-.redes-sociais-cnpj{
+.redes-sociais-cnpj {
     display: flex;
     margin-left: 65px;
     margin-top: 2vw;
     color: white;
 }
 
-.rede-social-nome{
+.rede-social-nome {
     margin-left: 3vw;
 }
 
@@ -22,10 +25,10 @@ body {
     /* cnpj : 00.000.000/0000-01 */
     margin-left: 22vw;
     text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;   
+    font-family: 'Bebas Neue', cursive;
 }
 
-.meio-footer{
+.meio-footer {
     margin-left: 145px;
     display: flex;
     color: white;
@@ -33,8 +36,8 @@ body {
 
 .logo-instagram {
     width: 40px;
-    height: 42px; 
-    
+    height: 42px;
+
 }
 
 .logo-facebook {
@@ -42,9 +45,9 @@ body {
     height: 45px;
 }
 
-.email-phone {   
+.email-phone {
     /* gmbarbershop@mail.com | (11) 97777-0000 */
-   
+
     margin-left: 50px;
     margin-top: 18px;
     font-size: 14px;
@@ -86,11 +89,11 @@ body {
     height: 28px;
 }
 
-.logo-footer-barber{
+.logo-footer-barber {
     margin-top: -54px;
     margin-left: 10px;
     width: 110px;
-    
+
 }
 
 
@@ -99,20 +102,29 @@ body {
     width: 140px;
     margin-left: 100px;
 
-    
+
 }
+
 .ssl {
     width: 90px;
     left: 253px;
-    margin-left:15px
+    margin-left: 450px
 }
 
 .copy-right {
-  
+
     font-size: 13px;
     text-transform: lowercase;
     font-weight: bold;
-    color:black;
+    color: black;
     text-align: center;
     margin-top: -22px;
+}
+
+.container2-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffff;
+
 }

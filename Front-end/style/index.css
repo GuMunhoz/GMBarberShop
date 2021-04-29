@@ -9,6 +9,18 @@ body {
     background-position: bottom;
 }
 
+.container-botao {
+    padding: 10px;
+    margin-bottom: 55px;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
 .titulo {
     /* GM BARBER SHOP, O clássico barba , cabelo e bigode */
 
@@ -63,14 +75,15 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-   font-family:'Arial, Helvetica, sans-serif';
+    font-family: 'Arial, Helvetica, sans-serif';
     left: 285px;
-    
-    
+
+
 }
+
 .titulo-botao:hover {
     color: black;
-    
+
 }
 
 
@@ -79,86 +92,86 @@ body {
 
 /* DESKTOP */
 
-@media(min-width:500px) and (max-width:700px){
-    .titulo{
-    
+@media(min-width:500px) and (max-width:700px) {
+    .titulo {
+
         left: 50px;
         top: 80px;
         font-size: 55px;
-        }
-    
-        
-        .botao {
-        
-            left: 180px;
-            top: 400px;
-        
-        }
-    
-        .titulo-botao {
-    
-            left: 175px;  
-        }
-        
-    
+    }
+
+
+    .botao {
+
+        left: 180px;
+        top: 400px;
+
+    }
+
+    .titulo-botao {
+
+        left: 175px;
+    }
+
+
 
 }
 
 
 /* Android  = motog; Samsung; And old Iphone */
 
-@media(max-width:450px){
+@media(max-width:450px) {
 
-    .titulo{
-    position: fixed;
-    width: 328.4px;
-    height: 392px;
-    line-height: 50px;
-    transform: rotate(-0.37deg);
-    font-family: 'Bebas Neue', cursive;
-    left: 10px;
-    top: 60px;
-    font-size: 50px;    
-}
+    .titulo {
+        position: fixed;
+        width: 328.4px;
+        height: 392px;
+        line-height: 50px;
+        transform: rotate(-0.37deg);
+        font-family: 'Bebas Neue', cursive;
+        left: 10px;
+        top: 60px;
+        font-size: 50px;
+    }
 
     .botao {
-    
+
         left: 60px;
         top: 385px;
-    
+
     }
 
     .titulo-botao {
 
-        left: 50px;  
+        left: 50px;
     }
-    
+
 }
 
 /* Iphone 6/7/8Plus */
 
-@media(min-width:400px) and (max-width:450px){
+@media(min-width:400px) and (max-width:450px) {
 
-    .titulo{
-    
-    left: 50px;
-    top: 80px;
-    font-size: 50px;
+    .titulo {
+
+        left: 50px;
+        top: 80px;
+        font-size: 50px;
     }
 
-    
+
     .botao {
-    
+
         left: 95px;
         top: 400px;
-    
+
     }
 
     .titulo-botao {
 
-        left: 85px;  
+        left: 85px;
     }
-    
+
 }
 
 
