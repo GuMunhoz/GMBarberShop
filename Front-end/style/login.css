@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 .login {
     padding: 120px;
     margin-left: 15%;
@@ -20,4 +22,10 @@
 .entrar {
     padding: 10px;
     text-align: center;
+}
+
+.form-check-label {
+    width: 155px;
+    padding-bottom: 35px;
+
 }

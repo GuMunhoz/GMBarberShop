@@ -17,6 +17,7 @@ body {
     margin-left: 65px;
     margin-top: 2vw;
     color: white;
+    padding-top: 15px;
 }
 
 .rede-social-nome {
@@ -34,6 +35,7 @@ body {
     margin-left: 145px;
     display: flex;
     color: white;
+    padding: 5px;
 }
 
 .logo-instagram {
